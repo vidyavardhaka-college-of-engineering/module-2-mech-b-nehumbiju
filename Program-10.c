@@ -10,8 +10,7 @@ int main()
     printf("Enter how many values you want to read and values");
     scanf("%d", &n);
     printf("enter the value of a[%d] : ",i);
-
-    for (i = 0; i < n; i++)
+     for (i = 0; i < n; i++)
     {
         //printf("Enter the value of a[%d] : ",i);
         scanf("%d", &arr[i]);
