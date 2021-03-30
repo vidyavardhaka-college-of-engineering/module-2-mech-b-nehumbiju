@@ -9,8 +9,8 @@ int main()
     int arr[100], n, i, small, large;
     printf("Enter how many values you want to read and values");
     scanf("%d", &n);
-
-    for (i = 0; i < n; i++)
+    printf("enter the value of a[%d] : ",i);
+     for (i = 0; i < n; i++)
     {
         //printf("Enter the value of a[%d] : ",i);
         scanf("%d", &arr[i]);
@@ -28,12 +28,12 @@ int main()
         
         if (arr[i] >large  )//missing code
         {
-            large= arr[];//missing code
+            large= arr[i];//missing code
         }
     }
 
-    printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d",);
+    printf("The largest element of the array are %d", large);
+    printf("The smallest element of the array are %d",small);
 
     return 0;
 }
